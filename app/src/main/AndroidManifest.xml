@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActionBarToolbar"/>
+        <activity android:name=".StandaloneToolbar"/>
+        <activity android:name=".ContextualMenu"/>
+
     </application>
 
 </manifest>

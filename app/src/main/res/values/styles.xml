@@ -6,12 +6,16 @@
 
     </style>
 
-    <style name="SuperMaterialTheme" parent="Theme.AppCompat">
+    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Tema pai para todas as APIs antes e depois do KitKat. Válido para todos os devices-->
 
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlHighlight">#edea0d</item>
+        <item name="colorButtonNormal">#f955f3</item>
+        <item name="colorControlActivated">#0cf427</item>
 
     </style>
 
